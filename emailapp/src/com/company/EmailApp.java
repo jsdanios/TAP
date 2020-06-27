@@ -1,0 +1,11 @@
+package com.company;
+
+public class EmailApp {
+
+    public static void main(String[] args) {
+	// write your code here
+        Email em1 = new Email("John", "Smith");
+
+        System.out.println(em1.showInfo());
+    }
+}
